@@ -1,0 +1,37 @@
+package hhhh;
+import java.util.*;
+public class hhh {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner input=new Scanner(System.in);
+		
+		
+		boolean[][]array=new boolean[5][5];
+		
+		for(int i=0;i<array.length;i++) {
+			
+			for(int j=0; j< array[i].length; j++) {
+			
+			array[i][j]=input.nextBoolean();
+			}
+		}
+		
+		for(int i=0;i<array.length;i++)
+		{
+			for(int j=0; j<array[i].length;i++)
+			{
+				if(array[i][j]==true)
+				{
+					System.out.print(" * ");
+				}
+				
+				else
+					System.out.print("  ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

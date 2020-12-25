@@ -1,0 +1,11 @@
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person person = new Person("John", "12 Bell street", "3473339999", "john12@aol.com");
+		Student student = new Student("Marry", "100 Town Ave", "5149993333", "mary100@a0l.com", "Student.FRESHMAN");
+
+	}
+
+}

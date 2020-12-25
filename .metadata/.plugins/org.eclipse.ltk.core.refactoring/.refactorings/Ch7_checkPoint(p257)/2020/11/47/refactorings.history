@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;target&apos; in &apos;checkPointArrayCopy.main(...)&apos; to &apos;t&apos;&#x0D;&#x0A;- Original project: &apos;Ch7_checkPoint(p257)&apos;&#x0D;&#x0A;- Original element: &apos;checkPointArrayCopy.main(String[]).target&apos;&#x0D;&#x0A;- Renamed element: &apos;target&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;target&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{checkPointArrayCopy.java[checkPointArrayCopy~main~\[QString;@target!176!213!182!187!\[I!0!false" name="t" references="true" stamp="1605914255339" version="1.0"/>
+</session>

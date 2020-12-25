@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;stringClass&apos; to &apos;indexOfASpecifiedCharacter&apos;&#x0D;&#x0A;- Original project: &apos;Ch4_readingACharacter&apos;&#x0D;&#x0A;- Original element: &apos;stringClass&apos;&#x0D;&#x0A;- Renamed element: &apos;indexOfASpecifiedCharacter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;stringClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{stringClass.java[stringClass" matchStrategy="1" name="indexOfASpecifiedCharacter" qualified="false" references="true" similarDeclarations="false" stamp="1606108650386" textual="false" version="1.0"/>
+</session>

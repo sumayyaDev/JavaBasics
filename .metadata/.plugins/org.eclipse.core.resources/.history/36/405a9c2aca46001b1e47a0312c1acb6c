@@ -1,0 +1,55 @@
+
+public class RGB {
+	
+	private int red;
+	private int green;
+	private int blue;
+	
+	
+	public RGB(int red, int green, int blue) {
+		this.red = red;
+		this.green = green;
+		this.blue = blue;
+	}
+	
+	public int getRed() {
+		return red;
+	}
+	public void setRed(int red) {
+		this.red = red;
+	}
+	public int getGreen() {
+		return green;
+	}
+	public void setGreen(int green) {
+		this.green = green;
+	}
+	public int getBlue() {
+		return blue;
+	}
+	public void setBlue(int blue) {
+		this.blue = blue;
+	}
+//	private String RGB()
+//	{
+//		String op;
+//		if(this.red == 255 && this.green == 0 && this.blue == 0)
+//		{
+//			op = "red";
+//		}
+//		if(this.red == 0 && this.green == 255 && this.blue == 0)
+//		{
+//			op = "green";
+//		}
+//		if(this.red == 0 && this.green == 0 && this.blue == 255)
+//		{
+//			op = "blue";
+//		}
+//	}
+	
+	public String toString() {
+		return String.format("R = <" + getRed() + ">, G = <" + getGreen() + ">, B = <" + getBlue() + ">");
+		
+	}
+
+}

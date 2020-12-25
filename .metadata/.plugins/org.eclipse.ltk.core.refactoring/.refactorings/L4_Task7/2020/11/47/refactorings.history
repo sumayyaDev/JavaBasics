@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;L4_Task7&apos; to &apos;MyTriangle&apos;&#x0D;&#x0A;- Original project: &apos;L4_Task7&apos;&#x0D;&#x0A;- Original element: &apos;L4_Task7&apos;&#x0D;&#x0A;- Renamed element: &apos;MyTriangle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;L4_Task7&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{L4_Task7.java[L4_Task7" matchStrategy="1" name="MyTriangle" qualified="false" references="true" similarDeclarations="false" stamp="1605510476073" textual="false" version="1.0"/>
+</session>

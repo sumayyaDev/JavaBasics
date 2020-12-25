@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+public class L2_Task7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer, the input ends if it is 0: ");
+		int num = input.nextInt();
+		int count = 0;
+		int sum1 = 0;
+		int sum2 = 0;
+		while(num != 0) {
+			count++;
+			if(num > 0) {
+				sum1 = sum1 + num;
+				System.out.print("The number of positives is " + count);
+			}
+			else {
+				sum2 = sum2 + num;
+				System.out.print("The number of negatives is " + count);
+			}
+		}
+        float average =(float) (sum1 + sum2) / (count-1);
+        System.out.print("The total is " + count + "\nThe average is " + average);
+        input.close();
+	}
+
+}

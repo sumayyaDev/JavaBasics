@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;newboston_38.createConstructorToModifyTime&apos; to &apos;ModifyTime&apos;&#x0D;&#x0A;- Original project: &apos;newboston_38&apos;&#x0D;&#x0A;- Original element: &apos;newboston_38.createConstructorToModifyTime&apos;&#x0D;&#x0A;- Renamed element: &apos;newboston_38.ModifyTime&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;createConstructorToModifyTime&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;newboston_38{createConstructorToModifyTime.java[createConstructorToModifyTime" matchStrategy="1" name="ModifyTime" qualified="false" references="true" similarDeclarations="false" stamp="1606665836746" textual="false" version="1.0"/>
+</session>

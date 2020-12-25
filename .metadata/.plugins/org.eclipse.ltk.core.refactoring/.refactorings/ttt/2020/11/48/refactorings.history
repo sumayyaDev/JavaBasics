@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;array&apos; in &apos;ttt.friends.main(...)&apos; to &apos;arr&apos;&#x0D;&#x0A;- Original project: &apos;ttt&apos;&#x0D;&#x0A;- Original element: &apos;ttt.friends.main(String[]).array&apos;&#x0D;&#x0A;- Renamed element: &apos;array&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;array&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ttt{friends.java[friends~main~\[QString;@array!189!226!201!205!\[\[Z!0!false" name="arr" references="true" stamp="1606486690079" version="1.0"/>
+</session>

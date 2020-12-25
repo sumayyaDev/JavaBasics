@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class TestTriangle {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter three sides of the triangle: ");
+		double side1 = input.nextDouble();
+		double side2 = input.nextDouble();
+		double side3 = input.nextDouble();
+		
+		
+		GeometricObject ob = new GeometricObject();
+		Triangle triangle = new Triangle(side1, side2, side3);
+		
+		System.out.print("Enter color: ");
+		String col = input.nextLine();
+		triangle.setColor(col);
+		
+		System.out.println("Area: " + triangle.getArea() + "\nPerimeter: " + triangle.getPerimeter());
+		System.out.println("Color: " + triangle.getColor() + "\nIsFilled: " + triangle.isFilled());
+		System.out.println(triangle.toString() + "   " + ob.toString());
+	}
+
+}

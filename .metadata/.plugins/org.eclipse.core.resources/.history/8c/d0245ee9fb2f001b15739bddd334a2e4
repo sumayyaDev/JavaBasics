@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Task1_2013467642 {
+
+	public static void main(String[] args) {
+		/*
+		 * // Write a java program that counts the total marks of all the students and
+		 * also calculates the class total and average. Take the marks of the students
+		 * as user inputs and use a method to calculate the student total operation.
+		 * Write a separate method that will calculate the class total and class
+		 * average.
+		 */
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the number of students: ");
+		int num = input.nextInt();
+		System.out.println("Enter the number of weeks: ");
+		int week = input.nextInt();
+		int[][] student = new int[num][week];
+		int[] sum = new int[num];
+		//System.out.println("------------------------------------------------------------------------");
+		//System.out.println("Student  |Week                                              |   Total  |");
+		
+		for(int i = 0; i < num; i++) {
+			int total = 0;
+			int classTotal = 0;
+			double average;
+			for(int j = 0; j < week; j++) {
+				student[i][j] = input.nextInt();
+				total += student[i][j];
+			}
+			sum[i] = total;
+			classTotal += total;
+			average = (double) classTotal / num;
+		}
+		
+		for(int i = 0; i < num; i++) {
+			for(int j = 0; j < week; j++) {
+				System.out.print(student[i][j] + " ");
+			}
+			System.out.println(sum[i]);
+		}
+		System.out.print("Class total: ");
+		System.out.print("\nClass average");
+	}
+
+}
