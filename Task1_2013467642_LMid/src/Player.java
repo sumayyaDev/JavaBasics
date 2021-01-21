@@ -29,6 +29,15 @@ public class Player {
 		return strikeRate;
 	}
 	
+//	public int addRun(Player[] p) {
+//		int sum = 0;
+//		for(int i = 0; i < p.length; i++) {
+//			sum += p[i].getRun();
+//		}
+//		return sum;		
+//	}
+	
+	
 	public int addRun(int run) {
 		int sum = 0;
 		sum += run;
@@ -36,6 +45,6 @@ public class Player {
 	}
 	
 	public String toString() {
-		return String.format("name = " + name + ", ID = " + ID + ", run = " + run + " and strikeRate = " +  strikeRate);
+		return String.format("name = " + name + ", ID = " + ID + ", run = " + run + " and strikeRate = " +  strikeRate );
 	}
 }

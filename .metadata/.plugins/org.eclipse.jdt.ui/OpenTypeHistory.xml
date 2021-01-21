@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=svA_InterfaceDemo/src&lt;{Animal.java[Animal" modifiers="1025" timestamp="1608879449734"/>
+    <typeInfo handle="=svA_InterfaceDemo/src&lt;{Fruit.java[Fruit" modifiers="1025" timestamp="1608879796102"/>
+    <typeInfo handle="=svA_InterfaceDemo/src&lt;{Edible.java[Edible" modifiers="513" timestamp="1608971579951"/>
+    <typeInfo handle="=Quiz3_Lab/src&lt;{GeometricObject.java[GeometricObject" modifiers="1025" timestamp="1610263594468"/>
+    <typeInfo handle="=Quiz3_Lab/src&lt;{Drawable.java[Drawable" modifiers="513" timestamp="1610263638939"/>
+    <typeInfo handle="=Ch13_Exercise13.5/src&lt;{Comparable.java[Comparable" modifiers="513" timestamp="1610528203084"/>
+    <typeInfo handle="=Ch13_Exercise13.9/src&lt;{GeometricObject.java[GeometricObject" modifiers="1025" timestamp="1610605165974"/>
+    <typeInfo handle="=Ch13_Exercise13.9/src&lt;{Comparable.java[Comparable" modifiers="513" timestamp="1610605278921"/>
+    <typeInfo handle="=Ch13_Exercise13.12/src&lt;{GeometricObject.java[GeometricObject" modifiers="1025" timestamp="1610692597538"/>
+    <typeInfo handle="=Ch19_Listing19.3/src&lt;{GeometricObject.java[GeometricObject" modifiers="1025" timestamp="1610706876847"/>
+</typeInfoHistroy>

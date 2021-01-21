@@ -18,7 +18,6 @@ public class testPlayer {
 			player[i] = new Player(name, ID, run, strikeRate);
 			player[i].addRun(run);
 		}
-		
 		int highestRun = player[0].getRun();
 		String playerName = player[0].getName();
 		for(int i = 1; i < 11; i++) {
