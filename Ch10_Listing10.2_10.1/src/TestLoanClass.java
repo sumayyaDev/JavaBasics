@@ -5,7 +5,7 @@ public class TestLoanClass {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Enter annual interest rate, for example, 8.25: ");
-		double annualInterestRate = input.
+		double annualInterestRate = input.nextDouble();
 		
 	}
 
